@@ -18,7 +18,10 @@ def header() -> rx.Component:
                 height="100px"  # Alto de la imagen
             ),
             rx.vstack(
-                rx.heading("Juanpa Britos"),
+                rx.heading(
+                    "Juanpa Britos",
+                    color=Color_Text.HEADER.value
+                    ),
                 rx.text(
                     "Estudiante de Sistemas | Programador",
                     margin_top="0px",
